@@ -526,7 +526,7 @@ footer .logo{
 }
 @media(max-width:480px){
     .post-container{
-        grid-template-columns: 2fr 2fr;
+        grid-template-columns: 1fr;
     }
     .post-box{
         height: 500px;
