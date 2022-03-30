@@ -392,7 +392,7 @@ margin: 10px auto 0px auto;
     color: #ffffff;
     font-size: 1.8rem;
     font-weight: 500;
-    font-family: 'Tajawal', sans-serif;
+   font-family: 'Tajawal', sans-serif;
 }
 
 .post-container{
@@ -526,7 +526,7 @@ footer .logo{
 }
 @media(max-width:480px){
     .post-container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr 2fr;
     }
     .post-box{
         height: 500px;
