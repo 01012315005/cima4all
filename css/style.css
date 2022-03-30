@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -384,13 +386,13 @@ margin: 10px auto 0px auto;
     color: #ffffff;
     font-size: 1.8rem;
     font-weight: 500;
-    font-family: 'Tajawal',arial;
+    font-family: 'Tajawal', sans-serif;
 }
 .latest-heading2 h1{
     color: #ffffff;
     font-size: 1.8rem;
     font-weight: 500;
-    font-family: 'Tajawal',arial;
+    font-family: 'Tajawal', sans-serif;
 }
 
 .post-container{
