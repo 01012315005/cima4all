@@ -46,7 +46,7 @@ a{
     display: flex;
     justify-content: center;
     padding: 30px;
-    min-width: 100%;
+    min-width: 100;
     margin: auto;
     width: 100%;
 }
@@ -164,6 +164,7 @@ a{
 }
 /*-----search-box-----*/
 .search-box{
+    
     background-color: #d1d1d111;
     padding: 3px 20px;
     border-radius: 20px;
@@ -492,6 +493,7 @@ footer .logo{
     }
     .logo{
         position: relative;
+        margin: 0px;
        
     }
     .search-box{
