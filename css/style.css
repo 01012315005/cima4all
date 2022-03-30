@@ -46,7 +46,7 @@ a{
     display: flex;
     justify-content: center;
     padding: 30px;
-    min-width: 1400px;
+    min-width: 100%;
     margin: auto;
     width: 100%;
 }
@@ -201,7 +201,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 20px auto;
-min-width: 1170px;
+min-width: 100%;
 width: 100%;
 
 }
@@ -487,14 +487,16 @@ footer .logo{
         grid-template-rows: 1fr 1fr;
         padding: 20px 0px;
     }
+    .swiper-mySwiper{
+        max-width:  10px;
+    }
     .logo{
         position: relative;
-        margin: 0px;
        
     }
     .search-box{
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end: 2;
         width: 100%;
         border-radius: 0px;
     }
