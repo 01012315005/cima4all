@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-----page-title------>
+<title>movie name</title>
+
+<!-----Css-->
+<link rel="stylesheet" href="css/style.css">
+
+<!----Web-icon-->
+<link rel="short icon"  href="images/logo.png">
+
+<!--import-poppins-font------->
+<link rel="stylesheet" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!--import-Tajwal-font------->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@500&display=swap" rel="stylesheet">
+<!--import-Monoton-font------->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!--using-font-awsome------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" ></script>
+
+
+
+
+
+
+</head>
+
+<body>
+
+<!---navitaion-->
+<nav class="navigation">
+
+ 
+  
+
+
+    <!--menu-btn------>
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+    </label>
+
+    <!----logo------->
+    <a href="index.html" class="logo">
+        Cima4All🎥<span>.hd</span>
+
+    </a>
+
+
+
+    <!-----menu------->
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Genre</a></li>
+        <li><a href="#">Tv Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Contact</a></li>
+
+    </ul>
+   
+
+    <!------search-box-->
+    <form action="" class="search-box">
+        <!----input--->
+        <input type="text" name="search" placeholder="Search Movie" class="search-input" required />
+        <!---btn-->
+        <button style="color: aliceblue; background-color: transparent;" type="submit">
+            <i style="background: transparent;" class="fas fa-search"></i>
+        </button>
+
+    </form>
+
+
+    
+</nav>
+<!----nav-end-->
+
+
+
+<!---===Movie-Banner=================-->
+
+<section class="movie-banner">
+
+<div class="m-banner-img">
+  <img src="images/cover.jpg" alt="">
+</div>
+
+
+<!--content--------->
+  <div class="banner-container">
+
+
+
+    <!-----title-container----*********----->
+    <div class="title-container">
+       <!----title-top------->
+       <div class="title-top">
+      <!-----title----*********----->
+      <div class="movie-title">
+        <h1>Spider-Man No-Way-Home</h1>
+      </div>
+      <!---more-about-movie--------->
+      <div class="more-about-movie">
+        <span class="quality">Full HD</span>
+        <div class="rating">
+          8.2 <img src="images/imdb.png" alt="">
+        </div>
+        <span>1 April 2022</span>
+        <span>1:00 hour</span>
+      </div>
+
+      <!---langue---------->
+      <div class="language">
+        <span>Arabic</span>
+        <div  class="category">
+          <strong>Category</strong><br/>
+          <a href="#">Action</a>,<a href="#">Mistery</a>,<a href="#">Esposides</a>
+        </div>
+      </div>
+      
+    </div>
+   
+    </div>
+  
+    
+
+
+    <!----watch-trailer----***********------->
+    <div class="play-btn-container">
+      <div class="title-bottom">
+
+        <!---زر-الاعلان---------->
+        <a href="https://www.youtube.com/watch?v=JfVOs4VSpmA" target="blank" class="watch-btn">Watch Tralier</a>
+        </div>
+  
+      </div>
+    </div>
+    
+  </div>
+
+
+
+
+</section>
+
+<section class="movie-banner2">
+
+  <div id="monitor">
+
+
+    <div id="in-mon">
+      <div style="text-align: center;">
+        <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="550"
+         src="https://iframe.mediadelivery.net/embed/31843/1826a73b-2e49-41bb-8d93-c29ffd234c0f?autoplay=true" title="YouTube video player" width="50%"></iframe>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+
+
+</section>
+
+
+
+
+
+<!----JS-Swiper--->
+<script src="js/swiper.js"></script>
+<!----jQuery---->
+<script src="js/jQuery.js"></script>
+
+
+
+<script>
+
+
+
+
+  /*actoin */
+
+  var swiper = new Swiper(".action", {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+   
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    breakpoints: {
+   
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      840: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+    },
+  });
+
+
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
